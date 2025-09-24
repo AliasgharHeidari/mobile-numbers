@@ -5,8 +5,6 @@ import (
 	onmemory "github.com/Golang-Training-entry-3/mobile-numbers/internal/repository/on-memory"
 )
 
-
-
 func main() {
 	onmemory.LoadInitUsers()
 	apiserver.Start()
